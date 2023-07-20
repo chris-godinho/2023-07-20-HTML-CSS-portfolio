@@ -1,0 +1,331 @@
+:root {
+  --background-color: #F8F2DC;
+  --banner-color: #CD4631;
+  --accent-color: #CD4631;
+  --font1-color: #FBF4EF;
+  --font2-color: #653F29;
+  --font3-color: #2B1B12;
+}
+
+header {
+  font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  padding: 5px;
+  background-color: var(--banner-color);
+  color: var(--font1-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  padding: 10px 0px 10px 25px;
+  font-size: 55px;
+  font-variant: small-caps;
+}
+
+header a {
+  color: var(--font1-color);
+  font-size: 23px;
+  text-decoration: none;
+}
+
+header nav {
+  padding: 25px 25px 20px 0px;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+header nav span {
+  margin: 0px 0px 20px 25px;
+}
+
+#hero {
+  height: 850px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/hero-cbg.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  color: var(--font2-color);
+}
+
+main {
+  background-color: var(--background-color);
+  padding: 0px 0px 50px 0px;
+}
+
+h2 {
+  font-size: 40px;
+  font-variant: small-caps;
+  padding: 40px 0px 25px 0px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 28px;
+  font-variant: small-caps;
+  padding: 20px 10% 20px 10%;
+}
+
+h4 {
+  font-size: 22px;
+  font-variant: small-caps;
+  padding: 10px 10% 10px 10%;
+}
+
+h4::before {
+  content: url('../images/checkmark-cbg.png');
+  display: inline;
+}
+
+p {
+  font-size: 18px;
+  padding: 15px 10% 15px 10%;
+}
+
+#about-me {
+  padding: 15px 10% 15px 10%;
+}
+
+#about-me #left-img {
+  float: left;
+  margin: 35px;
+  padding-left: 120px;
+  height: auto;
+}
+
+#my-work {
+  padding: 15px 18% 15px 18%;
+}
+
+#my-work #work-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#my-work #work-flex #work-showcase {
+  display: flex;
+  flex: 1 0 90%;
+  text-align: center;
+  height: 300px;
+  border-style: solid;
+  border-color: var(--accent-color);
+  border-width: 5px;
+  margin: 20px 5px 20px 5px;
+  background-image: url(../images/project01-cbg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: var(--font3-color);
+  text-decoration: none;
+}
+
+#my-work #work-flex #work-showcase:hover {
+  filter: brightness(1.15);
+  color: var(--font1-color)
+}
+
+#my-work #work-flex .work-regular {
+  display: flex;
+  flex: 1 0 30%;
+  text-align: center;
+  height: 150px;
+  border-style: solid;
+  border-color: var(--accent-color);
+  border-width: 5px;
+  margin: 20px 5px 20px 5px;
+  background-size: cover;
+  background-position: center;
+  color: var(--font3-color);
+  text-decoration: none;
+}
+
+#my-work #work-flex .work-regular:hover {
+  filter: brightness(1.15);
+  color: var(--font1-color)
+}
+
+
+#my-work #work-flex #project02 {
+  background-image: url(../images/project02-cbg.jpg);
+}
+
+#my-work #work-flex #project03 {
+  background-image: url(../images/project03-cbg.jpg);
+}
+
+#my-work #work-flex #project04 {
+  background-image: url(../images/project04-cbg.jpg);
+}
+
+#my-work #work-flex #project05 {
+  background-image: url(../images/project05-cbg.jpg);
+}
+
+#my-work #work-flex #project06 {
+  background-image: url(../images/project06-cbg.jpg);
+}
+
+#my-work #work-flex #project07 {
+  background-image: url(../images/project07-cbg.jpg);
+}
+
+#my-work #work-flex #work-showcase div {
+  display: flex;
+  padding: 15px;
+  border-color: var(--accent-color);
+  background-color: var(--accent-color);
+  max-height: 30px;
+  font-size: 25px;
+}
+
+#my-work #work-flex .work-regular div {
+  display: flex;
+  padding: 15px;
+  border-color: var(--accent-color);
+  background-color: var(--accent-color);
+  max-height: 30px;
+  font-size: 25px;
+}
+
+#resume {
+  padding: 15px 10% 15px 10%;
+}
+
+#hobbies {
+  padding: 15px 10% 15px 10%;
+}
+
+#hobbies .hobby-topic {
+  display: inline-block;
+}
+
+#hobbies .hobby-topic .left-icon {
+  float: left;
+  margin: 35px;
+  padding-left: 120px;
+  height: 100px;
+}
+
+#hobbies .hobby-topic #right-icon {
+  float: right;
+  margin: 35px;
+  padding-right: 120px;
+  height: 100px;
+}
+
+#hobbies .hobby-topic p {
+  padding: 55px 10% 15px 10%;
+}
+
+#contact-me {
+  padding: 15px 10% 15px 10%;
+}
+
+#contact-me h2 {
+  padding: 15px 10% 35px 10%;
+}
+
+#contact-me .line-item .small-icon {
+  float: left;
+  padding: 0px 30px 0px 180px;
+  height: 35px;
+  width: 35px;
+}
+
+#contact-me .line-item p {
+  padding: 5px 10% 45px 10%;
+}
+
+#contact-me .line-item p a {
+  color: var(--font2-color);
+  text-decoration: none;
+}
+
+footer {
+  font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  padding: 20px 25px 30px 0px;
+  background-color: var(--banner-color);
+  color: var(--font1-color);
+}
+
+footer span {
+  font-size: 17px;
+  float: right;
+}
+
+@media screen and (max-width: 985px) {
+  #my-work #work-flex .work-regular div {
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  #my-work #work-flex #work-showcase div {
+    padding: 10px;
+    max-height: 25px;
+    font-size: 15px;
+  }
+  
+  #my-work #work-flex .work-regular div {
+    padding: 10px;
+    max-height: 25px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  header nav {
+    flex-direction: column;
+  }
+
+  #about-me {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #about-me #left-img {
+    float: none;
+    padding-left: 0px;
+  }
+
+  #hobbies .hobby-topic {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #hobbies .hobby-topic .left-icon {
+    float: none;
+    padding: 10px;
+    align-self: center;
+  }
+  
+  #hobbies .hobby-topic #right-icon {
+    float: none;
+    padding: 10px;
+    align-self: center;
+  }
+
+  #contact-me .line-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contact-me .line-item .small-icon {
+    float: none;
+    padding: 20px;
+    align-self: center;
+  }
+  
+  #contact-me .line-item p {
+    text-align: center;
+  }
+
+}
