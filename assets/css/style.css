@@ -1,4 +1,5 @@
 :root {
+  /* Setting application colour scheme */
   --background-color: #F8F2DC;
   --banner-color: #CD4631;
   --accent-color: #CD4631;
@@ -7,6 +8,7 @@
   --font3-color: #2B1B12;
 }
 
+/* Setting header and navbar properties */
 header {
   font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
   padding: 5px;
@@ -30,6 +32,7 @@ header a {
 }
 
 header nav {
+  /* Setting navbar as flex for responsiveness */
   padding: 25px 25px 20px 0px;
   float: right;
   display: flex;
@@ -41,6 +44,7 @@ header nav span {
   margin: 0px 0px 20px 25px;
 }
 
+/* Setting properties for hero image */
 #hero {
   height: 850px;
   width: 100%;
@@ -50,6 +54,7 @@ header nav span {
   background-position: center;
 }
 
+/* Setting fonts and colours for main section */
 body {
   font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
   color: var(--font2-color);
@@ -60,6 +65,7 @@ main {
   padding: 0px 0px 50px 0px;
 }
 
+/* Setting all heading properties */
 h2 {
   font-size: 40px;
   font-variant: small-caps;
@@ -80,6 +86,7 @@ h4 {
 }
 
 h4::before {
+  /* Adding checkmark image to h4 headings */
   content: url('../images/checkmark-cbg.png');
   display: inline;
 }
@@ -89,17 +96,20 @@ p {
   padding: 15px 10% 15px 10%;
 }
 
+/* Setting properties for About Me section */
 #about-me {
   padding: 15px 10% 15px 10%;
 }
 
 #about-me #left-img {
+  /* Fitting "About Me" image into text boxes */
   float: left;
   margin: 35px;
   padding-left: 120px;
   height: auto;
 }
 
+/* Setting flexboxes for Work section */
 #my-work {
   padding: 15px 18% 15px 18%;
 }
@@ -110,6 +120,7 @@ p {
 }
 
 #my-work #work-flex #work-showcase {
+  /* Setting flexbox properties for top project*/
   display: flex;
   flex: 1 0 90%;
   text-align: center;
@@ -126,11 +137,13 @@ p {
 }
 
 #my-work #work-flex #work-showcase:hover {
+  /* Setting effect for hovering over top work box*/
   filter: brightness(1.15);
   color: var(--font1-color)
 }
 
 #my-work #work-flex .work-regular {
+  /* Setting flexbox properties for all other projects*/
   display: flex;
   flex: 1 0 30%;
   text-align: center;
@@ -146,11 +159,12 @@ p {
 }
 
 #my-work #work-flex .work-regular:hover {
+  /* Setting effect for hovering over project boxes*/
   filter: brightness(1.15);
   color: var(--font1-color)
 }
 
-
+/* Setting background images for all other project boxes*/
 #my-work #work-flex #project02 {
   background-image: url(../images/project02-cbg.jpg);
 }
@@ -193,10 +207,12 @@ p {
   font-size: 25px;
 }
 
+/* Setting properties for Resume section */
 #resume {
   padding: 15px 10% 15px 10%;
 }
 
+/* Setting properties for Hobbies section */
 #hobbies {
   padding: 15px 10% 15px 10%;
 }
@@ -205,6 +221,7 @@ p {
   display: inline-block;
 }
 
+/* Setting alignment for images in Hobbies section*/
 #hobbies .hobby-topic .left-icon {
   float: left;
   margin: 35px;
@@ -223,6 +240,7 @@ p {
   padding: 55px 10% 15px 10%;
 }
 
+/* Setting properties for Contact Me section */
 #contact-me {
   padding: 15px 10% 15px 10%;
 }
@@ -232,6 +250,7 @@ p {
 }
 
 #contact-me .line-item .small-icon {
+  /* Setting alignment for images beside contact information*/
   float: left;
   padding: 0px 30px 0px 180px;
   height: 35px;
@@ -247,6 +266,7 @@ p {
   text-decoration: none;
 }
 
+/* Setting footer properties */
 footer {
   font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
   padding: 20px 25px 30px 0px;
@@ -259,6 +279,7 @@ footer span {
   float: right;
 }
 
+/* Setting media queries for different widths for responsiveness*/
 @media screen and (max-width: 985px) {
   #my-work #work-flex .work-regular div {
     font-size: 20px;
