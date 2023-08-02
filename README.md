@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a portfolio page for Chris Godinho, featuring 
+This is a portfolio page for Chris Godinho.
 
 ![A render of the finished page](/assets/images/deployed-app.jpg)
 
