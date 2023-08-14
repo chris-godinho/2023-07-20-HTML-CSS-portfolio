@@ -1,4 +1,4 @@
-# Module 2 Challenge - Professional Portfolio
+Professional Portfolio
 
 ## Description
 
