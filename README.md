@@ -15,7 +15,7 @@ This is a portfolio page for Chris Godinho.
 
 ## Installation
 
-No installation is necessary for this application. A live page can be accessed at <https://kristbg.github.io/cbg-module02-project/>.
+No installation is necessary for this application. A live page can be accessed at <https://kristbg.github.io/2023-07-20-portfolio-page/>.
 
 ## How can I Contribute?
 
