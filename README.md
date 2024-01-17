@@ -15,7 +15,7 @@ This is a portfolio page for Chris Godinho.
 
 ## Installation
 
-No installation is necessary for this application. A live page can be accessed at <https://chris-godinho.github.io/portfolio/>.
+No installation is necessary for this application. A live page can be accessed at <https://chris-godinho.github.io/HTML-CSS-portfolio/>.
 
 ## How can I Contribute?
 
